@@ -1,0 +1,287 @@
+
+body
+{
+margin:  0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+background-image: url(https://e1.pxfuel.com/desktop-wallpaper/858/275/desktop-wallpaper-2560x1440-planet-stars-vector-space-art-widescreen-16-9-backgrounds-vector-space.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+}
+
+
+
+  @keyframes slideDown {
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+
+  header
+  { 
+    position: sticky;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 20px 100px;
+  background-color: #9900ff;
+      display: flex;
+     align-items: center;
+     justify-content: space-between;
+     z-index: 99 ;
+     transform: translateY(-100%);     
+  animation: slideDown 0.5s forwards;   
+  
+  }
+
+  .header .logo
+  {
+    position: inherit;
+  font-size:1.1em ;
+  color: black;
+  text-decoration: none;
+  }
+  .menu
+  {
+    position: inherit;
+  text-shadow:0px 1px 3px rgba(0, 0, 0, 0.2);
+    color: black;
+  position: relative;
+  font-size: 1.1em;
+  margin-right: 40px;
+  height: 100px;
+  width: 100px;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out; 
+  
+  }
+  .menu:hover
+  {
+      color: aliceblue;
+      cursor: pointer;
+      transform: scale(1.2);
+    
+  
+  }    
+  .fa-planet-moon
+  {
+    position: inherit;
+  height: inherit;
+  width: fit-content;
+  }
+  .log-in-button
+{
+    border-radius: 25px;
+         width: 75px;
+         height: 60px;   
+         border: none;
+         font-size: 1.1em;
+         cursor: pointer;
+         background-color: #f72585;
+         color: white;
+           
+}
+.log-in-button:hover
+{
+color: #f72585;
+background-color: aliceblue;
+transition: 0.3s ease-in-out;
+
+}
+.Contact-us-div
+{
+
+    margin-top: 25px;
+display: flex;
+justify-content: center;
+ align-items: center;
+margin-left: auto;
+margin-right: auto;
+background-color: black;
+height: 170px;
+width: 100%;
+text-align: center; 
+box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.Contact-us {
+  color: white;
+  margin-top: 50px; 
+}
+.lable-div
+{
+    height: 700px;
+    width: 1000px;
+
+     margin-left: auto;
+     margin-right: auto;
+     background-color: transparent;
+}
+
+
+
+.lable-div label {
+    display: block;
+    font-size: 1.1em;
+    margin-top: 20px;
+    color: #fffcf7;
+  }
+  
+  .lable-div input[type="text"],
+  .lable-div input[type="email"],
+  .lable-div input[type="tel"] {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    border: none;
+    background-color: #f2f2f2;
+    width: 100%;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+    color: #f2f2f2;
+
+  }
+  
+  .lable-div input[type="text"]:focus,
+  .lable-div input[type="email"]:focus,
+  .lable-div input[type="tel"]:focus {
+    outline: none;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    border-bottom: 2px solid black;
+    background-color: transparent;
+    color: #f2f2f2;
+    border-bottom: 2px solid  #f2f2f2;
+    transition: 0.1s ease-in;
+  }
+  
+  .Submit {
+    background-color: #00bbf9;
+    color: white;
+    font-size: 1.1em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .Submit:hover {
+    
+    background-color: transparent;
+    transition: 0.4s ease-in-out;
+    border: solid 1px white;
+    overflow: none;
+  }
+
+
+  textarea {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    border: none;
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 150px;
+    resize: none; 
+  }
+    
+  textarea:focus {
+    outline: none;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    border: 2px solid black;
+    transition: 0.1s ease-in;
+  }
+
+
+
+
+
+
+  lable-div input[type="text"],
+.lable-div input[type="email"],
+.lable-div input[type="tel"],
+.lable-div textarea {
+  transition: border-color 0.2s ease-in-out, background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.lable-div input[type="text"]:focus,
+.lable-div input[type="email"]:focus,
+.lable-div input[type="tel"]:focus,
+.lable-div textarea:focus {
+  border-color: #f72585;
+  background-color: rgba(249, 37, 133, 0.1);
+  color: #f2f2f2;
+  transition: 0.6s ease-out ;
+}
+.lable-div input[type="text"]:focus + label[for = "First-Name"] ,
+.lable-div input[type="email"]:focus + label,
+.lable-div input[type="tel"]:focus + label
+{
+  color: #f72585;
+  transition: 0.4s ease-out;
+} 
+.lable-div label {
+  display: block;
+  font-size: 1.1em;
+}
+
+@media (max-width: 768px) {
+  header {
+    padding: 20px;
+  }
+
+  .menu {
+    margin-right: 20px;
+  }
+
+  .log-in-button {
+    width: 60px;
+    height: 50px;
+  }
+
+  .Contact-us-div {
+    height: 120px;
+  }
+
+  .lable-div {
+    height: 500px;
+    width: 90%;
+  }
+}
+
+
+@media (max-width: 480px) {
+  header {
+    padding: 10px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .log-in-button {
+    width: 40px;
+    height: 40px;
+    font-size: 0.9em;
+  }
+
+  .Contact-us-div {
+    height: 100px;
+  }
+
+  .lable-div {
+    height: 400px;
+    width: 90%;
+  }
+}
