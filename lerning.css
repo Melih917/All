@@ -1,0 +1,38 @@
+
+    p{
+               color: aliceblue;        
+    }
+    #Eyup
+    {
+        color: aqua;
+    }
+    .even
+    {
+            color: aqua;
+        font-family:"Fjalla One";
+    }
+    .odd
+    {
+                color: chocolate;
+                font-family: sans-serif;
+                font-weight:bold;
+                font-style: italic;
+                 text-decoration:  chartreuse  dashed;
+    }
+    
+    h1{
+        
+        color:  red;
+        font-family: "Press Start 2P" ;
+        color: cadetblue;
+        border-style: solid;
+        border-color:burlywood ;
+        border-radius: 5cm;
+        border: spacing 10px; 
+        padding: 1cm;
+        display: grid;
+        place-items:center;
+    }         
+
+
+        

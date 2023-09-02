@@ -7,6 +7,7 @@ body
   background-image: url(https://external-preview.redd.it/vnq-fJHkKN38ZhZnfdH8weLIE_J_l2cYYNnVYcYYDw4.png?auto=webp&s=e60ae38543d0d79ca0be5e7a5b40aed87b4b99f1);
   background-repeat: no-repeat;
    scroll-behavior: smooth;
+   overflow-x: hidden;
   
   }
   .right

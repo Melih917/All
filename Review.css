@@ -1,0 +1,274 @@
+body
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+background-color: #333;
+overflow-x: hidden;
+}
+@keyframes slideDown 
+{
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+
+  header
+  { 
+    position: sticky;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 20px 100px;
+  background-color: #9900ff;
+      display: flex;
+     align-items: center;
+     justify-content: space-between;
+     z-index: 99 ;
+     transform: translateY(-100%);     
+  animation: slideDown 0.5s forwards;   
+  
+  }
+
+  .header .logo
+  {
+    position: inherit;
+  font-size:1.1em ;
+  color: black;
+  text-decoration: none;
+  }
+  .menu
+  {
+    position: inherit;
+  text-shadow:0px 1px 3px rgba(0, 0, 0, 0.2);
+    color: black;
+  position: relative;
+  font-size: 1.1em;
+  margin-right: 40px;
+  height: 100px;
+  width: 100px;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out; 
+  
+  }
+  .menu:hover
+  {
+      color: aliceblue;
+      cursor: pointer;
+      transform: scale(1.2);
+    
+  
+  }    
+  .fa-planet-moon
+  {
+    position: inherit;
+  height: inherit;
+  width: fit-content;
+  }
+  .log-in-button
+{
+    border-radius: 25px;
+         width: 75px;
+         height: 60px;   
+         border: none;
+         font-size: 1.1em;
+         cursor: pointer;
+         background-color: #f72585;
+         color: white;
+           
+}
+.log-in-button:hover
+{
+color: #f72585;
+background-color: aliceblue;
+transition: 0.3s ease-in-out;
+
+}
+
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(50%);
+   
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+   
+  }
+}
+h1 {
+  animation: slideIn 0.5s ease;
+  transform: scale(0.9);
+}
+
+
+
+.review-card {
+  border: 2px solid #9900ff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 60%;
+  margin: 20px auto;
+  max-width: 800px;
+  background-color: #fff;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+  animation: slideIn 0.5s ease;
+
+}
+
+.review-card h2 {
+  font-size: 2rem;
+  margin: 0 0 20px;
+  color: #9900ff;
+  
+}
+
+.review-card p {
+  font-size: 1.2rem;
+  margin: 0 0 10px;
+  color: #333;
+  line-height: 1.5;
+ 
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.user-info img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+}
+
+.user-info h3 {
+  font-size: 1.5rem;
+  margin: 0;
+  color: #333;
+}
+
+.stars {
+  margin: 0 0 10px;
+  display: flex;
+  align-items: center;
+}
+
+.star {
+  font-size: 2rem;
+  color: #ccc;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.star:hover,
+.star.active {
+  color: #ffc107;
+}
+
+.star:hover + .star,
+.star.active + .star {
+  color: #ffc107;
+}
+
+.star:hover {
+  color: #ffc107;
+  transform: scale(1.1);
+}
+
+.star.active,
+.star.active ~ .star {
+  color: #ffc107;
+  transform: scale(1.2);
+}
+
+.star.active ~ .star:hover {
+  transform: scale(1.3);
+}
+
+.star.active ~ .star.active {
+  transform: scale(1.2);
+}
+
+.star-container {
+  position: relative;
+}
+
+.star-tooltip {
+  position: absolute;
+  bottom: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+  font-size: 1rem;
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 0.2s;
+  white-space: nowrap;
+}
+
+.star-container:hover .star-tooltip {
+  opacity: 1;
+}
+.star:hover ~ .star {
+  color: #ffc107;
+}
+
+.conteiner
+{
+  display: flex;
+   flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-around;
+  gap: 1rem;
+}
+.Review-us {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 80px;
+  
+}
+
+.Review {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #f72585;
+  border-bottom: aliceblue 3px solid;
+   animation: slideIn 0.5s ease;
+}
+
+.botton
+{
+ 
+  position: sticky;
+  bottom: 0;
+  right: 0;
+  border-radius: 25px;
+  width: 75px;
+  height: 60px;   
+  border: none;
+  font-size: 1.1em;
+  cursor: pointer;
+  background-color: #f72585;
+  color: white;
+}
+.botton-div
+{
+  margin-top: 300px;
+display: flex;
+align-items: center;
+justify-content: right;
+}
