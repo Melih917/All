@@ -7,59 +7,257 @@ font-family: sans-serif;
 background-color: #9900ff;
 }
 .div-class {
-    height: 200vh;
+    height: 150vh;
     width: 70%;
     border-radius: 15px;
     background-color: #14213d;
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
-}
-.header-container {
-    align-self:center;
-    position: relative;
-    z-index: 99;
-    animation: slideDown 0.5s forwards;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
 }
 @keyframes slideDown {
     from {
-        transform: translateY(-100%);
+      transform: translateY(-100%);
     }
     to {
-        transform: translateY(0);
+      transform: translateY(0);
     }
-}
-.header {
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px 100px; 
-    background-color: transparent;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.header .logo {
-    font-size:1.1em ;
+  }
+
+  header
+  { 
+     position: inherit;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+      top: 0;
+      left: 0;
+      width: 85%;
+      padding: 20px 100px;
+  background-color: #9900ff;
+      display: flex;
+     align-items: center;
+     justify-content: space-between;
+     z-index: 99 ;
+     transform: translateY(-100%);     
+  animation: slideDown 0.5s forwards;   
+    overflow-x: hidden; 
+  
+  }
+
+  .header .logo
+  {
+    position: inherit;
+  font-size:1.1em ;
+  color: black;
+  text-decoration: none;
+  }
+  .menu
+  {
+    position: inherit;
+  text-shadow:0px 1px 3px rgba(0, 0, 0, 0.2);
     color: black;
-    text-decoration: none;
+  position: relative;
+  font-size: 1.1em;
+  margin-right: 40px;
+  height: 100px;
+  width: 100px;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out; 
+  
+  }
+  .menu:hover
+  {
+      color: aliceblue;
+      cursor: pointer;
+      transform: scale(1.2);
+    
+  
+  }    
+  .fa-planet-moon
+  {
+    position: inherit;
+  height: inherit;
+  width: fit-content;
+  }
+  .log-in-button
+{
+    border-radius: 25px;
+         width: 75px;
+         height: 60px;   
+         border: none;
+         font-size: 1.1em;
+         cursor: pointer;
+         background-color: #f72585;
+         color: white;
+           
 }
-.menu {
-    color: black;
-    position: relative;
-    font-size: 1.1em;
-    margin-right: 40px;
-    height: 100px;
-    width: 100px;
-    text-decoration: none;
-    transition: color 0.3s ease-in-out;
+.log-in-button:hover
+{
+color: #f72585;
+background-color: aliceblue;
+transition: 0.3s ease-in-out;
+
 }
-.menu:hover {
-    color: aliceblue;
-    cursor: pointer;
-    transform: scale(1.2);
-}    
-.fa-planet-moon {
-    height: inherit;
-    width: fit-content;
+.p1 {
+ 
+  overflow: hidden;
+  text-overflow: ellipsis;
+   color: aliceblue;
+   font-size: 1.7em;
+   line-height: 1.5;
+}
+
+.DivTextAndImage {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+ 
+}
+
+.First-image {
+  margin-top: 20px;
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+.ConteinerForCards
+{
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+.card {
+  margin-top: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  height: 400px;
+  width: 300px;
+  background-color: #14213d;
+  color: aliceblue;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+.card h2 {
+  font-size: 24px;
+  margin: 0;
+  color: aliceblue;
+}
+
+.card p {
+  font-size: 16px;
+  margin: 0;
+  color: aliceblue;
+}
+
+.card .price {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f72585;
+}
+
+.card .basic {
+  background-color: #9900ff;
+  color: aliceblue;
+}
+
+.card .premium {
+  background-color: #f72585;
+  color: aliceblue;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card li {
+  margin-bottom: 10px;
+}
+
+.checkout-btn {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #f72585;
+  color: aliceblue;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.checkout-btn:hover {
+  background-color: #f6e58d;
+  color: #333;
+}
+.Socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.Socials a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 1.5rem;
+  margin-left: 10px;
+}
+
+.Socials i {
+  font-size: 2rem;
+  margin-right: 10px;
+  color: aliceblue;
+}
+
+.Socials i:hover {
+  color: #f72585;
+  cursor: pointer;
+}
+.Image2
+{
+  margin-top: 30px;
+  height: 300px;
+  width:  300px;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+}
+.DivTextAndImage2
+{
+display: flex;
+align-items: center;
+flex-direction: row-reverse;
+justify-content: space-evenly;
+}
+.p2
+{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 30px;
+  color: aliceblue;
+  font-size: 1.7em;
+  line-height: 1.5;
+  text-align: justify;
+
+}
+img
+{
+height: 300px;
+width: 300px;
 }

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Abotton.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+          }
+          
+          .review-card {
+            background-color: #f8f8f8;
+            border-radius: 10px;
+            box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 20px;
+            width: 400px;
+            max-width: 100%;
+          }
+          
+          .user-info {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+          }
+          
+          .user-info img {
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+          }
+          
+          .stars {
+            display: flex;
+            align-items: center
+          }
+
+
+    </style>
+    <div class="container">
+        <div class="review-card">
+          <div class="user-info">
+            <img src="" alt="Profile picture">
+            <h3 id="username"></h3>
+          </div>
+          <h2 id="review-title"></h2>
+          <div class="stars" id="stars">
+            <span class="star" data-rating="0.5">&#9733;</span>
+            <span class="star" data-rating="1">&#9733;</span>
+            <span class="star" data-rating="1.5">&#9733;</span>
+            <span class="star" data-rating="2">&#9733;</span>
+            <span class="star" data-rating="2.5">&#9733;</span>
+            <span class="star" data-rating="3">&#9733;</span>
+            <span class="star" data-rating="3.5">&#9733;</span>
+            <span class="star" data-rating="4">&#9733;</span>
+            <span class="star" data-rating="4.5">&#9733;</span>
+            <span class="star" data-rating="5">&#9733;</span>
+          </div>
+          <p id="review-text"></p>
+        </div>
+      
+        <div class="review-form">
+          <h3>Leave a review</h3>
+          <form id="review-form">
+            <input type="text" id="name" placeholder="Your name" required>
+            <input type="text" id="title" placeholder="Review title" required>
+            <textarea id="text" placeholder="Write your review here" required></textarea>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+      </div>
+      
+
+  </script>
+</body>
+</html>

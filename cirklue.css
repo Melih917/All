@@ -1,0 +1,88 @@
+body{
+padding: none ;
+margin: none;
+box-sizing: border-box;
+width: 1000px;
+width: 1000px;
+box-sizing: border-box;
+}
+.conteiner
+{
+width: 1000px;
+height: 1000px;
+border-style: solid;
+margin: NONE;
+padding: NONE;
+align-items: center;
+
+}
+
+
+.li
+{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    background-color: blue;
+ 
+    justify-content: space-evenly;
+    border-style: double ;
+    border-radius: 100px;
+    animation: upAndDown;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+.li2
+{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    background-color: red;
+
+    justify-content: space-evenly;
+    border-style: double ;
+    border-radius: 100px;
+    align-items: baseline;
+    animation: upAndDonw2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    margin-left: 100px;
+}
+.li3
+{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    background-color: green;
+    
+    justify-content: space-evenly;
+    border-style: double ;
+
+    border-radius: 100px;
+    align-items: baseline;
+    animation: upAndDonw2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    margin-left: 150px;
+}
+@keyframes upAndDonw2{
+from{
+    margin-bottom: 0%;
+  }
+  to{
+       
+        margin-top: 93%;
+  }
+}
+
+@keyframes upAndDown {
+  from{
+    margin-bottom: 0%;
+  }
+  to{
+       
+        margin-top: 93%;
+  }
+}
+

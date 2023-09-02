@@ -1,0 +1,98 @@
+h1{
+display: flex;
+justify-content: center;
+align-items: baseline;
+ background-color: yellow;
+ height: 100px;
+ font-family: sans-serif;
+}
+header
+{
+    margin: none;
+    padding: none;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background: black;
+}
+body::-webkit-scrollbar
+{
+  width: 5px; 
+}
+body::-webkit-scrollbar-track
+{
+   background-color: black;
+}
+body::-webkit-scrollbar-thumb
+{
+ background: purple;
+}
+
+
+
+
+hr
+{
+    margin: none none none none;
+    padding: none;
+}
+ul
+{
+    list-style:none;
+}
+
+.column {
+    float: left;
+
+  }
+  
+  .left {
+    width: 50%;
+  }
+  
+  .right {
+    width: 50%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+li
+{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    aspect-ratio: 16/9;
+    image-rendering: crisp-edges;
+    image-rendering: optimizeQuality;
+    object-fit: scale-down;
+    border-radius: 10%;
+    border-style: double;
+    overflow: none;
+    flex-flow: column;
+    border-radius: 25px;
+}
+.Dog2
+{
+  margin-left: 350px;
+}
+
+
+
+
+
+
+
+

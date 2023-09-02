@@ -1,0 +1,83 @@
+body
+{
+margin: 0;
+padding: 0;
+
+}
+
+@keyframes moves {
+    0% {
+      left: 0;
+    }
+    100% {
+      left: calc(100% - 50px);
+    }
+  }
+  @keyframes upAndDown {
+    from{
+      margin-bottom: 0%;
+    }
+    to{
+         
+          margin-top: 70%;
+    }
+  }
+  
+  @keyframes  biger
+  {
+  
+  form
+  {
+  background: black;
+  }
+  50%
+  {
+  height: 300px;
+  width: 300px;
+  background-color: aqua;
+  }
+  75%
+  {
+      height: 150px;
+      width: 150px;
+      background-color:  blueviolet;
+  }
+  to
+  {
+      background-color: chocolate;
+  }
+  }
+  
+.conteiner
+{
+height: 1000px;
+width: 1000px;
+margin-left: auto;
+margin-right: auto;
+border:double 10px black;
+margin-top: auto;
+margin-bottom: auto;
+}
+
+
+
+.circle
+{
+
+height: 500px;
+width: 500px;
+border-radius: 50%;
+background: black;
+animation: biger  infinite  2s alternate-reverse , moves  6s infinite alternate , upAndDown 6s infinite alternate;
+animation-duration: 2s;
+}
+.right
+{
+width: 50%;
+
+}
+.left
+{
+width: 50%;
+
+}

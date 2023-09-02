@@ -1,0 +1,227 @@
+body
+{
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+box-sizing: border-box;
+overflow-x: hidden;
+background-color: #333;
+}
+
+@keyframes slideDown 
+{
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+
+  header
+  { 
+    position: sticky;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 20px 100px;
+  background-color: #9900ff;
+      display: flex;
+     align-items: center;
+     justify-content: space-between;
+     z-index: 99 ;
+     transform: translateY(-100%);     
+  animation: slideDown 0.5s forwards;   
+  
+  }
+
+  .header .logo
+  {
+    position: inherit;
+  font-size:1.1em ;
+  color: black;
+  text-decoration: none;
+  }
+  .menu
+  {
+    position: inherit;
+  text-shadow:0px 1px 3px rgba(0, 0, 0, 0.2);
+    color: black;
+  position: relative;
+  font-size: 1.1em;
+  margin-right: 40px;
+  height: 100px;
+  width: 100px;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out; 
+  
+  }
+  .menu:hover
+  {
+      color: aliceblue;
+      cursor: pointer;
+      transform: scale(1.2);
+    
+  
+  }    
+  .fa-planet-moon
+  {
+    position: inherit;
+  height: inherit;
+  width: fit-content;
+  }
+  .log-in-button
+{
+    border-radius: 25px;
+         width: 75px;
+         height: 60px;   
+         border: none;
+         font-size: 1.1em;
+         cursor: pointer;
+         background-color: #f72585;
+         color: white;
+           
+}
+.log-in-button:hover
+{
+color: #f72585;
+background-color: aliceblue;
+transition: 0.3s ease-in-out;
+
+}
+.About-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+  }
+  
+  .About {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #f72585;
+    border-bottom: aliceblue 3px solid;
+  }
+  
+  .p1 {
+    font-size: 1.5em;
+    text-align: center;
+    color: aliceblue;
+    max-width: 800px;
+    margin-bottom: 40px;
+  }
+.p2 {
+ 
+    overflow: hidden;
+    text-overflow: ellipsis;
+     color: aliceblue;
+     font-size: 1.7em;
+     line-height: 1.5;
+  }
+  
+  .DivTextAndImage {
+    display: flex;
+    align-items: center;
+     flex-direction: row-reverse;
+    justify-content: space-evenly;
+    margin-top: 100px;
+   
+  }
+  
+  .First-image {
+    margin-top: 20px;
+    height: 500px;
+    width: 600px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+  }
+  button {
+    border-radius: 25px;
+    width: 150px;
+    height: 50px;
+    font-size: 0.8em;
+    background-color: #f72585;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  }
+  
+  button:hover {
+    background-color: aliceblue;
+    color: #f72585;
+    box-shadow: none;
+  }
+  @media screen and (max-width: 1200px) {
+    header {
+    padding: 20px;
+    }
+    }
+    
+    @media screen and (max-width: 1024px) {
+    .DivTextAndImage {
+    flex-direction: column;
+    }
+    .First-image {
+    width: 100%;
+    height: auto;
+    }
+    .p2 {
+    font-size: 1.2em;
+    }
+    }
+    
+    @media screen and (max-width: 768px) {
+    header {
+    padding: 10px;
+    }
+    .menu {
+    display: none;
+    }
+    .header .logo {
+    font-size: 1em;
+    }
+    .log-in-button {
+    width: 100px;
+    height: 40px;
+    font-size: 0.8em;
+    }
+    .About {
+    font-size: 2em;
+    }
+    .p1 {
+    font-size: 1.2em;
+    }
+    button {
+    width: 120px;
+    height: 40px;
+    font-size: 0.7em;
+    }
+    }
+    
+    @media screen and (max-width: 480px) {
+    .header {
+    padding: 5px;
+    }
+    .header .logo {
+    font-size: 0.8em;
+    }
+    .About {
+    font-size: 1.5em;
+    }
+    .p1 {
+    font-size: 1em;
+    }
+    .p2 {
+    font-size: 1em;
+    }
+    button {
+    width: 100px;
+    height: 30px;
+    font-size: 0.6em;
+    }
+    }

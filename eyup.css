@@ -1,0 +1,217 @@
+.fa-user
+{
+    color: brown;
+
+}
+.fa-user:hover
+{
+    animation: reinbow 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+@keyframes reinbow
+{
+        from{
+            filter: hue-rotate(0deg);
+        }
+        to{
+            filter: hue-rotate(360deg);
+        }
+
+}
+
+*
+{
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Popins', sans-serif;
+}
+
+#sss{
+    width: 650px ;
+    height:  50px;
+    color: blue;
+    border-style: solid;
+    border-radius:  3px;
+    margin: auto;
+    background-color: aqua;
+    font-family: sans-serif;
+    font-size: medium;
+    font-weight: 600;
+
+}
+
+
+body
+{
+background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAHcA7AMBIgACEQEDEQH/xAAZAAADAQEBAAAAAAAAAAAAAAABAgMABAf/xAAoEAACAgICAgEEAgMBAAAAAAAAAQIRAyESMUFRE1JhcaEigQRCYjL/xAAZAQADAQEBAAAAAAAAAAAAAAABAgMEAAX/xAAgEQEBAAIDAAMAAwAAAAAAAAAAAQIRAxIhEzFBBFFh/9oADAMBAAIRAxEAPwD1MDFboVy+4+nmmbBYtoDa8B0AyYpmI2EDPSJBcr8k2PI5sjpbIuQcrsmVxgEm3Yreh5kZMpAJJ2ycnSGkSk7KwpQNmehHsc2LWgNgNIRox9BsVtGbFehdNOISkADaFb0JY0Rm9k5sLYshbF59FZMaT0TbErthJoSTVBasSWuxLCF8CuRnImxbAr1NzvaI3bYrlSMpWd108VQmm+ToaT/h+Sd1thkcd5PHkBKUlfZlNLyHqBmTyZH0gTyJ6T0Scl7HmLmyZGl0J8v/AD+wZJJtbQja9lZiGzzyrj1+zn+S/BsslpWTnJJdlMcS2tOduibaStsnLL62yDyNy2VmIbXnl+lX+SfyOuhG01oF6H6jjfTLI/QJZHyqiXJJiymnLsW4tOF9V5v0JOb0KpL2DI1S2hLi0Y0zByrsRTj5khJz5aXQlxacaf5F6A8qXgk3QjYuljynbuibmmJKVeRHkTdIS4uNOenRFO07DkYidOxNAwrybFnIS0Lor0uUnfYOT9knPds0smtD9XjKfJ7egOSfn9nO5WaUktjdQX5RXkXlZyuWx4zfsPUNqylSJX3ZOeSTkycpOtseYlUm/wAEpT8KiUpO+xJSpWysxDZ5Uttkck42lYk5NvsWXSZTHENntE5akxHkUem7JZM0pfYpMS2qZZ1STJOcvZByfJuwqdlOjpfVlO+wOS9kJZL0ibsncWrjrpc34Jt7J82l2B5PIvVowvqr6Fuu2RllclonOTrsTq0xeWTfYrm35IJ2jSm4i3Fol8NOTJt0gfI/KEnkQlnjmcm+2K3SBzROWRProTqFEXkycsj9i/K/QvUr0rm/YHlaElIQpp4qvyP7GWTk9knJULy9HagaXbQvyRT7OdtvsHgbq6rPJGUm72LkaS7Itkpu2NMQUlNJbIufJ3f9CzdIk2VxxJdqzkkrs5c2WT6dfgORuyWTpFccSZbZSfsnmz8I0l/IzkkmcspOTbfbK4z1PLchvnl9KFlmm/SEYGylkLhu1SGR+SsZr2cqezSlfknlI3ce7Vp5Vetkucr9imE01Y31SM15BJ2yMmJy9E7GrDboc0l2Rlk8ok3uzSkqFuLRPpnkt7A5L2Jr2Tk1YljqpOaJyyUtIVySTsk5oSyBYdyvbMReT0LyfsTRdPTrA2xU1YWxNsPT36BmsRyNyoOwvE3I3ITkbkNsLxRmyTlsMpXZNS9jSu+HQTdiDTerIylZSUvXfhZvZObvoackkStFMaX4v8JLpkmtDzl2kR5MtjkS8VZ2uxG9hlJ09k0xu4T+PPs10KzNiuSFyrVxcXX6NdCyn48i8rFlKhLWjHi9FsRsSWTdUDkhbWvHjsNbJTkNKSrsn4Fq2OPg3onKVCynf8fBNSp7J0bxmk7WxV0GXQnJR7YtLZ4D7F5iOd9AE2Xr/b1BtAcifkDIbZvj/D8kK5pgEvbDsekUtAZOTMpaDsvx/ok3qxuaJSlbHlLcKXI7RMacibkqKY1146Sbtk3oZyVk8s0ikoXGk8tk2qY3NCZJJIpKXLC0syd0GcybH2GPHf0zYkml5A3RObFtauPjO5KifJNg8C3WxV8cI0v/AF/QCc8rvoWWVqLelrwBonHdDklG7ZF5lJtJ1Ql8tshJ1OX5OaceLzTrUkxZ0m22RTJTyOTq9ISlvEtKb/olJtiTbpbF5y/IlLcD3XQdEZZafX7I5P8AImpUqoUvx2vWHITnsCkmI3vsy7YtLqSYtqyTkq7JuVndg0u39wNqiCA3sO3aUc6Iylb2GT8CMaVwyaok3Ys22+9CN15KygMmlsjOTk9+AZHeid0PjQNaEyOmFyVWc0pKTuysyCnclu2Tc666BJquybkkh9uxkPy8sSU1YjmmCgbXxhnkSRGU+T+xpvwSehdr4Q06RHJkdOujZJfclOSUXbDK04GhkT70Sm0pO3WyUp/SRya22GVpxkXl/kKKpWyEs8n0kifKxWwXRusNLLN/7C/JP6rEbMJSag/JK9glkUpXQkmLa9k6S6espgbqzGMDxiXZlKnsxgg0siQrm/QDBgA5uxJ5HVIxhpfXbS5UiMsjbaMYpATyTeqBz9oxisBLLPwiLRjFIBZdEZsxh/wZ9lM3SsxgLxJyd2JOfhdmMBfBKTdEn0zGBGjFCUuJDK7MYZphELJmMC+Q1qbkCzGJWpWg2I2Awlpa/9k=);
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+margin: 0;
+}
+
+input
+{
+   
+    margin-top: 23.5px;
+    border-style: double;
+    min-width: 100px;
+    padding: 0.1cm;
+    min-width: 60px;
+    text-align: left;
+    border-style: solid;
+    border-radius: 10px;
+    text-align: left;
+}       
+label
+{ 
+     color:black;
+      font-family:sans-serif;
+      font-weight: 300;
+      margin-top: 23.5px;
+      min-height: 60px;
+      text-align: left;
+}
+label:active
+{
+    position: relative;
+    border-style: solid;
+    border-bottom: 1.8px double black;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background: transparent;
+    overflow:transparent;
+    background: none;
+    outline: none;
+    text-decoration: none;
+}
+input:hover
+{
+    transform: scale(1.1);
+    transition: 0.1s;
+    
+}
+     
+
+#box1
+{
+border: 3px solid;
+width: 800px;
+height: 900px;
+background: linear-gradient(white  lightgrey);
+background-repeat:no-repeat;
+border-radius: 0.5cm;
+margin-left: auto;
+margin-right: auto;
+margin-top:10%;
+padding: 50px;
+border-color: aqua;
+box-shadow: 3px 3px 3px aqua ;
+overflow: 0;
+}
+
+#rrr
+{
+    margin-left: 100px;
+}
+#FName
+{
+ position: relative;
+border-style: solid;
+border-bottom: 1.8px double black;
+border-top: none;
+border-right: none;
+border-left: none;
+background: transparent;
+overflow: hidden;
+background: none;
+}
+#FName:active
+{
+    position: relative;
+    border-style: solid;
+    border-bottom: 1.8px double black;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background: transparent;
+    overflow:transparent;
+    background: none;
+    outline: none;
+
+}
+.header
+{
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+   z-index: 99 ;
+
+}
+.header .logo
+{
+font-size:1.1em ;
+color: aliceblue;
+text-decoration: none;
+}
+.menu
+{
+position: relative;
+font-size: 1.1em;
+color: gray;
+margin-right: 40px;
+height: 100px;
+width: 100px;
+text-decoration: none;
+
+}
+.menu:hover
+{
+    color: aliceblue;
+    cursor: pointer;
+
+}
+
+
+h1
+{
+font-family: sans-serif;
+color: aliceblue;
+position: sticky;
+display: grid;
+place-items:center;
+transform: translateY(100px);
+margin-left: auto;
+margin-right: auto;
+margin-top: auto;
+margin-bottom: auto;
+}
+body::-webkit-scrollbar
+{
+  width: 5px; 
+}
+body::-webkit-scrollbar-track
+{
+   background-color: black;
+}
+body::-webkit-scrollbar-thumb
+{
+ background: purple;
+}
+
+.logo:hover
+{
+    animation: reinbow 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}

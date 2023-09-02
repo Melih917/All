@@ -1,0 +1,71 @@
+body
+{
+margin: 0;
+padding: 0;
+
+}
+.Wraper
+
+{
+
+background-color: black;
+}
+h1
+{
+text-align: center;
+background-color: #e2e2e2;
+font-family: sans-serif;
+font-weight: 600;
+padding: 1cm;
+
+}
+img
+{
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+
+}
+img:hover
+{
+transform: scale(1.03);
+transition: 0.1s;
+}
+header
+{
+border-bottom: solid 1px cadetblue ;
+
+
+
+
+}
+
+ul
+{
+    display: flex;
+   
+    align-items: center;
+}
+
+
+li
+{
+    font-family: sans-serif;
+   color: #e2e2e2;
+  
+}
+main
+{
+    background-color: #e2e2e2;
+border: solid 40px #e2e2e2 ;
+}
+
+
+
+
+
+
+
+
+

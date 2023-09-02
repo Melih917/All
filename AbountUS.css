@@ -1,0 +1,54 @@
+body
+{
+ margin: 0;
+}
+section
+{
+font-size: 2rem;
+padding: 2rem;
+background-color: #333;
+color: aliceblue;
+}
+.AboutUs
+{
+    font-size: 7rem;
+    color: aliceblue;
+    text-shadow: 0 0 5px black;
+    z-index: -1;
+}
+.wrapper
+{
+height: 100vh;
+overflow-y: auto;
+overflow-x: hidden;
+perspective: 10px;
+}
+
+    .background
+    {
+        transform: translateZ(-10px ) scale(2);
+    }   
+    .fourground
+    {
+
+            transform: translateZ(5px) scale(1.5);
+    }
+header
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    z-index: -1;
+}
+
+.background
+.fourground
+{
+position: absolute;
+height: 100%;
+width: 100%;
+object-fit: cover;
+}
