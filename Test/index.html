@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz Exam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="quiz-container">
+        <img id="question-image" src="" alt="Question Image" style="display: none; max-width: 100%; height: auto; margin-bottom: 20px;">
+        <div id="question"></div>
+        <ul id="answers">
+            <!-- Multiple-choice options will be loaded here -->
+        </ul>
+        <input type="text" id="text-answer" placeholder="Your answer" style="display: none;">
+        <button id="submit">Submit Answer</button>
+        <div id="results"></div>
+    </div>
+
+
+
+
+    <div id="add-question-form">
+        <select id="question-type-selector">
+            <option value="multiple-choice">Multiple Choice</option>
+            <option value="text-input">Text Input</option>
+        </select>
+        <input type="text" id="new-question-input" placeholder="Enter your question" />
+        <!-- Answer inputs initially hidden -->
+        <div id="multiple-choice-answers" style="display: none;">
+            <input type="text" id="new-answer-a" placeholder="Enter answer A" />
+            <input type="text" id="new-answer-b" placeholder="Enter answer B" />
+            <input type="text" id="new-answer-c" placeholder="Enter answer C" />
+            <input type="text" id="new-answer-d" placeholder="Enter answer D" />
+        </div>
+        <input type="text" id="new-correct-answer" placeholder="Enter the correct answer (e.g., A or the correct text)" />
+        <input type="text" id="new-image-url" placeholder="Enter image URL (optional)" />
+        <button id="add-question-btn">Add Question</button>
+    </div>
+    
+
+
+                                   
+
+    <script src="app.js"></script>
+</body>
+</html>
