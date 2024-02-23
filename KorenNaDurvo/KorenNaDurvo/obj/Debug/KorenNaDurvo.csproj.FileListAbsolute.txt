@@ -1,0 +1,7 @@
+D:\Users\U610\Documents\12a_ASD\KorenNaDurvo\KorenNaDurvo\bin\Debug\KorenNaDurvo.exe.config
+D:\Users\U610\Documents\12a_ASD\KorenNaDurvo\KorenNaDurvo\bin\Debug\KorenNaDurvo.exe
+D:\Users\U610\Documents\12a_ASD\KorenNaDurvo\KorenNaDurvo\bin\Debug\KorenNaDurvo.pdb
+D:\Users\U610\Documents\12a_ASD\KorenNaDurvo\KorenNaDurvo\obj\Debug\KorenNaDurvo.csproj.AssemblyReference.cache
+D:\Users\U610\Documents\12a_ASD\KorenNaDurvo\KorenNaDurvo\obj\Debug\KorenNaDurvo.csproj.CoreCompileInputs.cache
+D:\Users\U610\Documents\12a_ASD\KorenNaDurvo\KorenNaDurvo\obj\Debug\KorenNaDurvo.exe
+D:\Users\U610\Documents\12a_ASD\KorenNaDurvo\KorenNaDurvo\obj\Debug\KorenNaDurvo.pdb
